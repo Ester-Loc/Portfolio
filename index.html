@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu Portifólio</title>
 </head>
@@ -14,8 +15,8 @@
     <header class="container text-start mt-5">
 
         <img src="ester.png.jpg" alt="foto da Ester" class="rounded-4" height="468" width="468" srcset="">
-        <h1>Ester Locatelli</h1>
-        <p>15 anos</p>
+        <h1 class="container mt-5">Ester Locatelli</h1>
+        <p>16 anos</p>
         <p>Estudo no Colégio Estadual Leonilda Papen</p>
         <p>Sou apaixonada por aprender e descobrir coisas novas. Amo livros, tecnologia e tudo que envolve criatividade.
             Gosto de estar na igreja, curtir momentos com minha família e amigos, assistir doramas, “The Chosen” ou
@@ -26,22 +27,22 @@
             sou caprichosa nos trabalhos e meu bolo de chocolate faz sucesso! Também elogiam minha habilidade com
             tecnologia
             e criações para as mídias da igreja.</p>
-        <h1>Experiências de vida</h1>
+        <h2 class="container mt-5">Experiências de vida</h2>
 
         <div>
-            <p>1. Voluntariado na igreja
+            <p>1. Voluntariado na igreja:
                 Me ofereci para ajudar nas mídias da igreja. No começo foi difícil, mas aprendi a usar Canva, CapCut e a
                 projetar conteúdo. Hoje, vejo o quanto cresci e me sinto realizada por contribuir com algo que aprendi.
             </p>
-            <p>2. Feirinha escolar
+            <p>2. Feirinha escolar:
                 Participei da organização de uma feirinha com a turma. Aprendi sobre planejamento e cooperação. Foi
                 cansativo, mas ver tudo pronto foi recompensador.</p>
-            <p>3. Novas responsabilidades em casa
+            <p>3. Novas responsabilidades em casa:
                 Com a mudança para o período da tarde, passei a cuidar do almoço e de tarefas como lavar roupa. Aprendi
                 sobre rotina, autonomia e valorizei ainda mais o trabalho das donas de casa.</p>
         </div>
 
-        <h1>Habilidades</h1>
+        <h2 class="container mt-5">Habilidades</h2>
 
         <div>
             <p>Tenho facilidade com tecnologia: crio designs, stories, edito vídeos e uso ferramentas como Canva e
@@ -56,7 +57,7 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
         </script>
     <main class="container mt-5">
-        <h2>Meus Projetos</h2>
+        <h2 class="container mt-5">Meus Projetos</h2>
         <div class="row">
             <!-- Projeto 1 -->
             <div class="col-md-4">
@@ -67,7 +68,9 @@
                         <p class="card-text">Esse trabalho foi sobre biotecnologia azul, que envolve o uso de organismos
                             marinhos para desenvolver produtos e soluções sustentáveis. Foi uma oportunidade de aprender
                             mais sobre o oceano e como ele pode ajudar em áreas como saúde e energia.</p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o
+                            projeto</button>
                     </div>
                 </div>
             </div>
@@ -81,7 +84,9 @@
                         <p class="card-text">Criei um site fictício sobre como estudar, combinando criatividade com
                             o uso do inglês. O projeto uniu design e linguagem, mostrando como é possível aprender se
                             divertindo com temas que gostamos.</p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o
+                            projeto</button>
                     </div>
                 </div>
             </div>
@@ -95,14 +100,115 @@
                         <p class="card-text">Desenvolvi uma interface de rede social fictícia focada em dicas de estudo.
                             A proposta fazia parte de um curso da Alura e foi uma chance incrível de aplicar conceitos
                             de design e pensar em como criar uma plataforma útil e funcional.</p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </main>
+
+    <!--Modal-1-->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto de biotecnologia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esse trabalho foi feito em grupo e tinha como tema a Biotecnologia Azul — o ramo da
+                        biotecnologia voltado para o ambiente marinho. Pesquisamos sobre como organismos aquáticos podem
+                        ser usados para produzir medicamentos, alimentos e até energia. Eu participei ativamente da
+                        pesquisa e também da organização visual do trabalho no Canva. Foi um projeto que me ensinou
+                        muito sobre colaboração e sobre um tema inovador e pouco conhecido.</p>
+                    <img src="projeto 1.png.jpg" alt="imagem representativa do slide de biotecnologia azul" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a
+                        href="https://www.canva.com/design/DAGhpV1v67I/AUfsZIpSauY_ZjZhpY7OtA/view?utm_content=DAGhpV1v67I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc6ad376a50">Ver
+                        projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal-2-->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Website fictício em inglês</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Criamos um site fictício, inteiramente em inglês, sobre um tema que gostamos. Pude soltar a
+                        criatividade escolhendo o conteúdo, as imagens e a organização visual. Usei o Canva para montar
+                        as páginas, praticando o idioma de uma forma leve e divertida. Foi uma forma prática de aplicar
+                        o que aprendi em aula e me expressar ao mesmo tempo.</p>
+                    <img src="projeto 2.png.jpg" alt="imagem representativa do site fictício em inglês" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://byester.my.canva.site/esterblog">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal-3-->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Interface de rede social "StuDix"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esse projeto nasceu de uma proposta da Alura para desenvolver uma interface de rede social.
+                        Criei a StuDix, uma rede fictícia focada em dicas de estudo. Pensei em toda a identidade visual:
+                        nome, logo, paleta de cores (marrom, com estilo minimalista) e a organização da tela principal.
+                        Trabalhei com o Figma para desenhar os botões, ícones e espaços de interação. Foi um dos
+                        projetos que mais me empolgaram, porque juntei criatividade com propósito.</p>
+                    <img src="projeto 3.png.png" alt="imagem representativa de interface de rede social-StuDix" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.figma.com/proto/LqLwpFmqAy0x4ipg9oBxEr/StuDix?node-id=2-2&p=f&t=4BTLKpg9r7DbY2wZ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2">Ver
+                        projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main class="container mt-5">
+        <h2>Minhas Aspirações</h2>
+        <div>
+            <p>Ainda estou descobrindo qual profissão seguir, mas tenho vontade de aprender mais sobre design,
+                tecnologia, comunicação e idiomas. Sonho em conhecer outros países e viver novas experiências. Admiro
+                quem usa o que sabe para fazer o bem, e quero seguir um caminho onde eu também possa fazer a diferença.
+            </p>
+        </div>
+
+    </main>
+
+
+    <footer class="container py-4">
+        <h2>Como me Encontrar/Conhecer melhor</h2>
+        <div>
+            <p>Quase sempre estou em casa, estudando, lendo ou criando algo.</p>
+            <p>Se quiser me conhecer melhor, pergunte sobre meus livros favoritos, o que estou aprendendo com Deus ou o
+                que tenho criado ultimamente.</p>
+            <p>Meu filme favorito é As Crônicas de Nárnia. E se eu fosse um personagem, acho que seria a Lucy: curiosa,
+                sensível,
+                com fé e cheia de vontade de descobrir o mundo com os olhos do coração.</p>
+
+            <p class="container my-5 text-center">Por Ester Locatelli :D</p>
+        </div>
+
+    </footer>
 
 </body>
 
